@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+    <title>2♠</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <h1>
+                <a href="#" class="logo">Mnemonica Stack</a>
+            </h1>
+        </header>
+        <div class="container">
+            <div class="content">
+                <strong class="question">n번째 카드를 입력해주세요</strong>
+                <input type="text" class="input_answer" readonly>
+                <div class="handler_area">
+                    <button type="button" class="btn_base btn_handler delete">지우기</button>
+                    <button type="button" class="btn_base btn_handler submit">제출</button>
+                </div>
+                <div class="suit_area">
+                    <!-- todo : 스다하클 순서 정하기 -->
+                    <button type="button" class="btn_base btn_suit" value="♠">♠</button>
+                    <button type="button" class="btn_base btn_suit red" value="◆">◆</button>
+                    <button type="button" class="btn_base btn_suit red" value="♥">♥</button>
+                    <button type="button" class="btn_base btn_suit" value="♣">♣</button>
+                </div>
+                <div class="number_area">
+                    <button type="button" class="btn_base btn_number">A</button>
+                    <button type="button" class="btn_base btn_number">2</button>
+                    <button type="button" class="btn_base btn_number">3</button>     
+                </div>
+                <div class="number_area">
+                    <button type="button" class="btn_base btn_number">4</button>
+                    <button type="button" class="btn_base btn_number">5</button>
+                    <button type="button" class="btn_base btn_number">6</button>
+                </div>
+                <div class="number_area">
+                    <button type="button" class="btn_base btn_number">7</button>
+                    <button type="button" class="btn_base btn_number">8</button>
+                    <button type="button" class="btn_base btn_number">9</button>
+                </div>
+                <div class="number_area">
+                    <button type="button" class="btn_base btn_number">10</button>
+                    <button type="button" class="btn_base btn_number">J</button>
+                    <button type="button" class="btn_base btn_number">Q</button>
+                    <button type="button" class="btn_base btn_number">K</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="dialog_area">
+        <div class="dialog">
+            <p class="answer_text">정답!!</p>
+        <button type="button" class="btn_base btn_close">닫기</button>
+        </div>
+    </div> -->
+</body>
+</html>

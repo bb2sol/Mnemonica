@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'DOSSaemmul';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSSaemmul.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, a,
+em, img, strong,
+table, caption, tbody, thead, tr, th, td,
+article, aside, footer, header,
+nav, section, button, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font-family: DOSSaemmul, sans-serif;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button {
+  cursor: pointer; }
+
+body, button, input, select, table, textarea {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: -.2px;
+  line-height: 1.2; }
+
+html,
+body,
+.wrap {
+  height: 100%; }
+
+.wrap {
+  background-color: #fdf5fb; }
+
+.header {
+  height: 48px;
+  padding: 0 24px;
+  line-height: 48px; }
+  .header .logo {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700; }
+
+.container {
+  position: relative; }
+
+.content {
+  padding: 0 24px; }
+
+.question {
+  display: block;
+  padding-top: 60px;
+  font-size: 20px;
+  text-align: center; }
+
+.input_answer {
+  display: block;
+  width: 200px;
+  height: 48px;
+  margin: 30px auto 0;
+  border: 1px solid #000;
+  background-color: #d7c2ff;
+  font-size: 24px;
+  text-align: center; }
+
+.handler_area {
+  display: flex;
+  margin-top: 30px; }
+
+.suit_area {
+  display: flex;
+  margin-top: 20px; }
+
+.number_area {
+  display: flex;
+  margin-top: 16px; }
+
+.btn_base {
+  flex: 0 1 auto;
+  width: 100%;
+  height: 48px;
+  border-radius: 6px;
+  background-color: #e43183;
+  color: #fff; }
+  .btn_base:hover {
+    box-shadow: #000 4px 4px; }
+  .btn_base + .btn_base {
+    margin-left: 8px; }
+  .btn_base.btn_suit {
+    border: 1px solid #000;
+    background-color: #fff8c2;
+    color: #000; }
+    .btn_base.btn_suit.red {
+      color: #e43183; }
+  .btn_base.btn_number {
+    border: 1px solid #000;
+    background-color: #dbffff;
+    color: #000; }
+  .btn_base.btn_handler {
+    background-color: #f4bfd9;
+    font-size: 16px;
+    color: #000; }
+
+.dialog_area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.dialog {
+  flex: 0 0 auto;
+  width: 240px;
+  padding: 30px;
+  border: 1px solid #000;
+  background-color: #fff;
+  text-align: center; }
+  .dialog .answer_desc {
+    margin-top: 4px; }
+  .dialog .btn_close {
+    height: 40px;
+    margin-top: 20px; }
+
+@media (min-width: 600px) {
+  .container {
+    width: 600px;
+    margin: 0 auto; } }

@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'DOSSaemmul';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSSaemmul.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, a,
+em, img, strong,
+table, caption, tbody, thead, tr, th, td,
+article, aside, footer, header,
+nav, section, button, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font-family: DOSSaemmul, sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button {
+	cursor: pointer;
+}
+body, button, input, select, table, textarea {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: -.2px;
+    line-height: 1.2;
+}
